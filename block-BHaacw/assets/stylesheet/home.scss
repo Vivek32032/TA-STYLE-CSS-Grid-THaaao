@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(58,74,79);
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+}

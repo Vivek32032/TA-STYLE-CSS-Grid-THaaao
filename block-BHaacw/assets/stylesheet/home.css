@@ -1,0 +1,11 @@
+body {
+  background-color: #3a4a4f;
+}
+
+.nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (200px)[6];
+      grid-template-columns: repeat(6, 200px);
+}
+/*# sourceMappingURL=home.css.map */

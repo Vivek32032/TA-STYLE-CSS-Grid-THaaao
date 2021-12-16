@@ -1,3 +1,51 @@
-// header{
+$text-color : rgb(254,253,249);
+$para-color : rgb(162,158,155);
 
-// }
+// general css
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    color: $para-color;
+}
+header{
+    position: sticky;
+    top: 0px;
+    padding: 1rem  5rem;
+    background-color: pink;
+    a{
+        font-size: 1.5rem;
+        color: rgb(146,141,137);
+    }
+}
+main{
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(245,227,215);
+ 
+}
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px solid black;
+    grid-template-areas: "about about";
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 1px solid black;
+    grid-area: about;
+    grid-template-areas: "intro intro img skills" "interface media app coding";
+}
+.my-introduction{
+    grid-area: intro;
+}
+

@@ -67,3 +67,22 @@ table {
 .flex-48{
     flex: 0 1 48%;
 }
+.column{
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.bg-primary{
+    background-color: rgb(248,103,62);
+}
+
+.bg-secondary{
+    background-color: rgb(236,175,78);
+}
+.bg-tertiary{
+    background-color: rgb(255,255,255);
+}

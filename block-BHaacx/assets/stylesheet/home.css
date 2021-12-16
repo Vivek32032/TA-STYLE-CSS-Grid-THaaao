@@ -1,1 +1,66 @@
-/* No CSS *//*# sourceMappingURL=home.css.map */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  color: #a29e9b;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding: 1rem  5rem;
+  background-color: pink;
+}
+
+header a {
+  font-size: 1.5rem;
+  color: #928d89;
+}
+
+.hero {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  background-color: #f5e3d7;
+}
+
+.about-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  border: 1px solid black;
+      grid-template-areas: "about about";
+}
+
+.about {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  border: 1px solid black;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: about;
+      grid-template-areas: "intro intro img skills" "interface media app coding";
+}
+
+.my-introduction {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: intro;
+}
+/*# sourceMappingURL=home.css.map */
